@@ -1,0 +1,32 @@
+{
+    "name": "constantinople-1283-removed",
+    "comment": "Hardfork with new instructions and protocol changes",
+    "eip": {
+        "url": "https://eips.ethereum.org/EIPS/eip-1013",
+        "status": "Draft"
+    },
+    "gasConfig": {},
+    "gasPrices": {
+        "sstoreSet": {
+            "v": 20000,
+            "d": "Once per SSTORE operation if the zeroness changes from zero"
+        },
+        "sstoreReset": {
+            "v": 5000,
+            "d": "Once per SSTORE operation if the zeroness does not change from zero"
+        },
+        "sstoreRefund": {
+            "v": 15000,
+            "d": "Once per SSTORE operation if the zeroness changes to zero"
+        }
+    },
+    "vm": {},
+    "pow": {
+        "minerReward": {
+            "v": "2000000000000000000",
+            "d": "The amount a miner gets rewarded for mining a block"
+        }
+    },
+    "casper": {},
+    "sharding": {}
+}
