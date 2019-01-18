@@ -55,6 +55,12 @@
             "block": null,
             "consensus": "pow",
             "finality": null
+        },
+        {
+            "name": "constantinople-1283-removed",
+            "block": null,
+            "consensus": "pow",
+            "finality": null
         }
     ],
     "bootstrapNodes": [
