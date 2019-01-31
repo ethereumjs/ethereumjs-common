@@ -1,5 +1,6 @@
 import { chains as chainParams } from './chains'
 import { hardforks as hardforkChanges } from './hardforks'
+import { genesisStateById, genesisStateByName } from './genesisStates'
 
 interface hardforkOptions {
   /** optional, only allow supported HFs (default: false) */
@@ -7,6 +8,8 @@ interface hardforkOptions {
   /** optional, only active HFs (default: false) */
   onlyActive?: boolean
 }
+
+export { genesisStateById, genesisStateByName, chainParams, hardforkChanges }
 
 /**
  * Common class to access chain and hardfork parameters
