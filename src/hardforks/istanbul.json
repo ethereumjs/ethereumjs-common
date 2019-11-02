@@ -31,35 +31,35 @@
       "v": 16,
       "d": "Per byte of data attached to a transaction that is not equal to zero. NOTE: Not payable on data of calls between transactions"
     },
-    "sstoreSentryGasEIP2200": {
+    "sstoreSentry": {
       "v": 2300,
       "d": "Minimum gas required to be present for an SSTORE call, not consumed"
     },
-    "sstoreNoopGasEIP2200": {
+    "sstoreNoop": {
       "v": 800,
       "d": "Once per SSTORE operation if the value doesn't change"
     },
-    "sstoreDirtyGasEIP2200": {
+    "sstoreDirty": {
       "v": 800,
       "d": "Once per SSTORE operation if a dirty value is changed"
     },
-    "sstoreInitGasEIP2200": {
+    "sstoreInit": {
       "v": 20000,
       "d": "Once per SSTORE operation from clean zero to non-zero"
     },
-    "sstoreInitRefundEIP2200": {
+    "sstoreInitRefund": {
       "v": 19200,
       "d": "Once per SSTORE operation for resetting to the original zero value"
     },
-    "sstoreCleanGasEIP2200": {
+    "sstoreClean": {
       "v": 5000,
       "d": "Once per SSTORE operation from clean non-zero to something else"
     },
-    "sstoreCleanRefundEIP2200": {
+    "sstoreCleanRefund": {
       "v": 4200,
       "d": "Once per SSTORE operation for resetting to the original non-zero value"
     },
-    "sstoreClearRefundEIP2200": {
+    "sstoreClearRefund": {
       "v": 15000,
       "d": "Once per SSTORE operation for clearing an originally existing storage slot"
     }
