@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://github.com/ethereumjs/ethereumjs-vm/tree/master/packages/common">
+    <img src="https://user-images.githubusercontent.com/47108/78554503-42c47000-77d9-11ea-8935-2d93981d50df.png" width="309">
+  </a>
+</p>
+
 # SYNOPSIS
 
 [![NPM Package](https://img.shields.io/npm/v/ethereumjs-common.svg?style=flat-square)](https://www.npmjs.org/package/ethereumjs-common)
